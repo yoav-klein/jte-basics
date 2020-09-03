@@ -1,10 +1,16 @@
 
 def call() {
     stage('Maven: Build') {
-        node('master') {
-            powershell script: 'echo "From powershell"'
+        pipeline 
+        {
+            agent { label 'master' }
+            stages
+            {
+                stage('First')
+                {
+                    echo "Step"   
+                }
+            }
         }
-        println "Build from the maven library"
-        
     }
 }
