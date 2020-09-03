@@ -1,16 +1,10 @@
 
 def call() {
    
-        pipeline 
-        {
-            agent { label 'master' }
-            stages
-            {
-                stage('First')
-                {
-                    echo "Step"   
-                }
-            }
-        }
-    
+       stage('maven:Build')
+   {  
+      node('master') {
+         powershell script: 'echo Hello'  
+      }
+   }
 }
