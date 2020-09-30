@@ -3,8 +3,10 @@ libraries {
   merge=true
   sonar
   example {
+    details {
     number = 2
     message = "Print this message #number times"
+    }
   }
 }
 
