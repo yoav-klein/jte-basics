@@ -5,7 +5,7 @@ libraries {
   example {
     details {
     number = 2
-    message = "Print this message #number times"
+    messages = ["First message", "Second message", "Third message"]
     }
   }
 }
