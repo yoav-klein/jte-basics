@@ -1,7 +1,7 @@
 allow_scm_jenkinsfile = true
 
 libraries {
-  override=true
+  merge=true
   sonar
   example {
     details {
