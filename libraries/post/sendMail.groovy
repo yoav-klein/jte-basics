@@ -1,6 +1,6 @@
 
 @CleanUp
-void call() {
+void call(context) {
     println "-----------------------"
     println "----Sending mail-------"
     println "-----------------------"
