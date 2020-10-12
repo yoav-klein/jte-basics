@@ -1,6 +1,6 @@
 
 @CleanUp
-void call(context) {
+void clean(context) {
     println "-----------------------"
     println "----Sending mail: build ${currentBuild.currentResult}-------"
     println "-----------------------"
