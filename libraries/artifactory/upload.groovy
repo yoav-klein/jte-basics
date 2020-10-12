@@ -1,4 +1,4 @@
 
 def call(def path) {
-    printl "Upload to ${path}"
+    println "Upload to ${path}"
 }
