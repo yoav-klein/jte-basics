@@ -2,7 +2,7 @@ allow_scm_jenkinsfile = true
 
 libraries {
   merge=true
-  //post
+  post
   sonar
   artifactory
   example {
