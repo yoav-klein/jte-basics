@@ -6,7 +6,7 @@ libraries {
   post
   sonar
   artifactory {
-    source = pipelineConfig.artifacts_directory 
+    source = "pipelineC" 
   }
   example {
     details {
