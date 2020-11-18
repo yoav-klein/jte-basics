@@ -1,6 +1,7 @@
 allow_scm_jenkinsfile = true
 artifacts_directory = "artifacts"
 
+
 libraries {
   merge=true
   post
