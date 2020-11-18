@@ -1,5 +1,5 @@
 allow_scm_jenkinsfile = true
-artifacts_directory = "artifacts"
+//artifacts_directory = "artifacts"
 
 keywords {
   artifacts_directory = "artos" 
