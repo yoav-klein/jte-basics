@@ -1,13 +1,16 @@
 allow_scm_jenkinsfile = true
 artifacts_directory = "artifacts"
 
+keywords {
+  artifacts_directory = "artos" 
+}
 
 libraries {
   merge=true
   post
   sonar
   artifactory {
-    source = "pipelineC" 
+    source = artifacts_directory 
   }
   example {
     details {
