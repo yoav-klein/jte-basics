@@ -10,7 +10,7 @@ libraries {
   post
   sonar
   artifactory {
-    source = artifacts_directory 
+    source = "my_source.bin" 
   }
   example {
     details {
