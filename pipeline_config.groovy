@@ -10,6 +10,7 @@ libraries {
   post
   sonar
   artifactory {
+    merge=true
     source = "my_source.bin" 
   }
   example {
