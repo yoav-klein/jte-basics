@@ -4,4 +4,6 @@ def call() {
  pipelineConfig.keywords.each {
   println "${it.key}: ${it.value}"
  }
+ 
+ println basepath
 }
