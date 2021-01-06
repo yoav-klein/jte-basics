@@ -1,5 +1,5 @@
 def call() {
  println "HERE"
- println pipelineConfig.keywords.basepath
+ println pipelineConfig.keywords.getClass()
 
 }
