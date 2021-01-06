@@ -5,5 +5,6 @@ def call() {
   println "${it.key}: ${it.value}"
  }
  
- println basepath
+ println "With pipelineConfig.basepath: ${pipelineConfig.basepath}"
+ println "With keywords.basepath: ${keywords.basepath}"
 }
