@@ -1,5 +1,5 @@
 def call() {
  println "HERE"
- println basepath
+ println keywords.basepath
 
 }
