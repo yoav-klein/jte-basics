@@ -1,7 +1,7 @@
 def call() {
  println "HERE"
  println pipelineConfig.keywords.getClass()
- pipelineConfig.keywords.each {
+ pipelineConfig.each {
   println "${it.key}: ${it.value}"
  }
  
