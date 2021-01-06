@@ -2,6 +2,7 @@ allow_scm_jenkinsfile = true
 //artifacts_directory = "artifacts"
 
 keywords {
+  merge = true
   artifacts_directory = "artos" 
 }
 
